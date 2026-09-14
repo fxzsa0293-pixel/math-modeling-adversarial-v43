@@ -1,0 +1,6 @@
+interface:
+  display_name: "Math Modeling Adversarial"
+  short_description: "Evidence-gated contest modeling workflow"
+  default_prompt: "Use $math-modeling-adversarial-v43 to solve this modeling problem with an explicit contract, executable baselines, independent verification, and traceable evidence."
+policy:
+  allow_implicit_invocation: true

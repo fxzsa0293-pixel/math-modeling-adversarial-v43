@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+.venv-*/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated solver runs and local workspaces
+tools/run/
+tools/**/run/
+tools/tmp/
+tools/output/
+competition_workspace/
+run/
+output/
+
+# Local-only reference corpus. Do not publish third-party papers, problems, or attachments.
+data/reference_root/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.log
+*.tmp
+~$*

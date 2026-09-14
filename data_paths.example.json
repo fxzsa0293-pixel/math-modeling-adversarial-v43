@@ -1,0 +1,21 @@
+{
+  "local_reference_data_root": "data/reference_root",
+  "v38_entrypoint": "tools/run.py --self-contained",
+  "v44_entrypoint": "tools/run.py --auto-solver --problem-id demo --data-root data/reference_root --max-routes 15 --timeout-seconds 45",
+  "note": "data/reference_root 为 Git 忽略的本地目录，公开仓库不附带第三方历史资料；--v39-solver 仅为兼容旧入口名，当前自动求解输出 version=v44。",
+  "validated_results": {
+    "v38": {
+      "case_count": 11,
+      "gate_verdict": "pass"
+    },
+    "historical_bundled_reference_demo": {
+      "adapter_count": 15,
+      "executed_route_count": 14,
+      "failed_route_count": 1,
+      "verdict": "pass",
+      "recommended_route": "tuned_ridge_lag_search"
+    },
+    "legacy_v43_tests": "13 passed",
+    "current_v44_tests_with_local_corpus": "175 passed (historical development record)"
+  }
+}
